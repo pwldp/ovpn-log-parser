@@ -18,6 +18,12 @@
   ],
   "author": "Dariusz Pawlak <pawlakdp@gmail.com> (http://github.com/pwldp)",
   "license": "The MIT License (MIT)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/pwldp/ovpn-log-parser/master/LICENSE"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/pwldp/ovpn-log-parser/issues"
   },
