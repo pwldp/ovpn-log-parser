@@ -1,10 +1,10 @@
 {
   "name": "ovpn-log-parser",
-  "version": "0.0.1",
-  "description": "Reads OpenVPN status log and exposes it in JSON.",
+  "version": "0.1.0",
+  "description": "Reads OpenVPN server status log and exposes it in JSON format.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "openvpn",
+    "server",
     "log",
     "parser"
   ],

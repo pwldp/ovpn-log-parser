@@ -1,0 +1,10 @@
+OpenVPN CLIENT LIST
+Updated,Wed Jan  7 16:06:56 2015
+Common Name,Real Address,Bytes Received,Bytes Sent,Connected Since
+baba_jaga,1.2.3.4:1194,107322,492621,Wed Jan  7 15:59:23 2015
+ROUTING TABLE
+Virtual Address,Common Name,Real Address,Last Ref
+172.16.0.1,baba_jaga,1.2.3.4:1194,Wed Jan  7 16:06:54 2015
+GLOBAL STATS
+Max bcast/mcast queue length,1
+END
