@@ -1,99 +1,110 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '.', '-g' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
 4 verbose node symlink /usr/bin/node
-5 verbose cache add [ '.', null ]
-6 verbose cache add name=undefined spec="." args=[".",null]
-7 verbose parsed url { protocol: null,
-7 verbose parsed url   slashes: null,
-7 verbose parsed url   auth: null,
-7 verbose parsed url   host: null,
-7 verbose parsed url   port: null,
-7 verbose parsed url   hostname: null,
-7 verbose parsed url   hash: null,
-7 verbose parsed url   search: null,
-7 verbose parsed url   query: null,
-7 verbose parsed url   pathname: '.',
-7 verbose parsed url   path: '.',
-7 verbose parsed url   href: '.' }
-8 silly lockFile 3a52ce78- .
-9 verbose lock . /home/appuser/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz', '.' ]
-11 verbose tarball /home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz
-12 verbose folder .
-13 info prepublish ovpn-log-parser@0.1.0
-14 silly lockFile 1f1177db-tar tar://.
-15 verbose lock tar://. /home/appuser/.npm/1f1177db-tar.lock
-16 silly lockFile 250d519f-vpn-log-parser-0-1-0-package-tgz tar:///home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz
-17 verbose lock tar:///home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz /home/appuser/.npm/250d519f-vpn-log-parser-0-1-0-package-tgz.lock
-18 silly lockFile 1f1177db-tar tar://.
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/appuser/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz', '.' ]
+12 verbose tarball /home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz
+13 verbose folder .
+14 info prepublish ovpn-log-parser@0.1.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/appuser/.npm/1f1177db-tar.lock
+17 silly lockFile 250d519f-vpn-log-parser-0-1-0-package-tgz tar:///home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz
+18 verbose lock tar:///home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz /home/appuser/.npm/250d519f-vpn-log-parser-0-1-0-package-tgz.lock
 19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile 250d519f-vpn-log-parser-0-1-0-package-tgz tar:///home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz
+20 silly lockFile 1f1177db-tar tar://.
 21 silly lockFile 250d519f-vpn-log-parser-0-1-0-package-tgz tar:///home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz
-22 silly lockFile 893e5d7a-pm-ovpn-log-parser-0-1-0-package /home/appuser/.npm/ovpn-log-parser/0.1.0/package
-23 verbose lock /home/appuser/.npm/ovpn-log-parser/0.1.0/package /home/appuser/.npm/893e5d7a-pm-ovpn-log-parser-0-1-0-package.lock
-24 silly lockFile 893e5d7a-pm-ovpn-log-parser-0-1-0-package /home/appuser/.npm/ovpn-log-parser/0.1.0/package
+22 silly lockFile 250d519f-vpn-log-parser-0-1-0-package-tgz tar:///home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz
+23 silly lockFile 893e5d7a-pm-ovpn-log-parser-0-1-0-package /home/appuser/.npm/ovpn-log-parser/0.1.0/package
+24 verbose lock /home/appuser/.npm/ovpn-log-parser/0.1.0/package /home/appuser/.npm/893e5d7a-pm-ovpn-log-parser-0-1-0-package.lock
 25 silly lockFile 893e5d7a-pm-ovpn-log-parser-0-1-0-package /home/appuser/.npm/ovpn-log-parser/0.1.0/package
-26 silly lockFile 3a52ce78- .
+26 silly lockFile 893e5d7a-pm-ovpn-log-parser-0-1-0-package /home/appuser/.npm/ovpn-log-parser/0.1.0/package
 27 silly lockFile 3a52ce78- .
-28 silly resolved [ { name: 'ovpn-log-parser',
-28 silly resolved     version: '0.1.0',
-28 silly resolved     description: 'Reads OpenVPN server status log and exposes it in JSON format.',
-28 silly resolved     main: 'index.js',
-28 silly resolved     scripts: { test: 'make test' },
-28 silly resolved     repository: { type: 'git', url: 'https://github.com/pwldp/ovpn-log-parser' },
-28 silly resolved     keywords: [ 'openvpn', 'server', 'log', 'parser' ],
-28 silly resolved     author:
-28 silly resolved      { name: 'Dariusz Pawlak',
-28 silly resolved        email: 'pawlakdp@gmail.com',
-28 silly resolved        url: 'http://github.com/pwldp' },
-28 silly resolved     license: 'The MIT License (MIT)',
-28 silly resolved     licenses: [ [Object] ],
-28 silly resolved     bugs: { url: 'https://github.com/pwldp/ovpn-log-parser/issues' },
-28 silly resolved     homepage: 'https://github.com/pwldp/ovpn-log-parser',
-28 silly resolved     devDependencies: { chai: '^1.10.0', mocha: '^2.1.0' },
-28 silly resolved     readme: '# ovpn-log-parser\nNodeJs OpenVPN server log parser.\n\nThis module is used in [InfraTus](https://github.com/pwldp/ifratus) and available via npm.\n\n\n## Installation\n\n  npm install scapegoat --save\n\n\n\n\n## Tests\n\n  npm test\n\n\n## Contributing\n\nIn lieu of a formal styleguide, take care to maintain the existing coding style.\nAdd unit tests for any new or changed functionality. Lint and test your code.\n\n\n## Release History\n\n* 0.1.0 Initial release\n\n\nModule creation based on tutorial: http://quickleft.com/blog/creating-and-publishing-a-node-js-module\n',
-28 silly resolved     readmeFilename: 'README.md',
-28 silly resolved     gitHead: '65e394f490b0dfa3d9883f557930efbf2c3709d0',
-28 silly resolved     _id: 'ovpn-log-parser@0.1.0',
-28 silly resolved     _shasum: 'abd6edcdb98312620a3f046303559ddd86ba9f32',
-28 silly resolved     _from: '.' } ]
-29 info install ovpn-log-parser@0.1.0 into /usr/lib
-30 info installOne ovpn-log-parser@0.1.0
-31 verbose lib/node_modules/ovpn-log-parser unbuild
-32 verbose tar unpack /home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz
-33 silly lockFile 6630f6b5-lib-node-modules-ovpn-log-parser tar:///usr/lib/node_modules/ovpn-log-parser
-34 verbose lock tar:///usr/lib/node_modules/ovpn-log-parser /home/appuser/.npm/6630f6b5-lib-node-modules-ovpn-log-parser.lock
-35 silly lockFile 250d519f-vpn-log-parser-0-1-0-package-tgz tar:///home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz
-36 verbose lock tar:///home/appuser/.npm/ovpn-log-parser/0.1.0/package.tgz /home/appuser/.npm/250d519f-vpn-log-parser-0-1-0-package-tgz.lock
-37 silly gunzTarPerm modes [ '775', '664' ]
-38 error Error: EACCES, mkdir '/usr/lib/node_modules/ovpn-log-parser'
-38 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/ovpn-log-parser']
-38 error   errno: 3,
-38 error   code: 'EACCES',
-38 error   path: '/usr/lib/node_modules/ovpn-log-parser',
-38 error   fstream_type: 'Directory',
-38 error   fstream_path: '/usr/lib/node_modules/ovpn-log-parser',
-38 error   fstream_class: 'DirWriter',
-38 error   fstream_stack:
-38 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
-38 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
-38 error      'Object.oncomplete (fs.js:107:15)' ] }
-39 error Please try running this command again as root/Administrator.
-40 error System Linux 2.6.32-28-pve
-41 error command "/usr/bin/node" "/usr/bin/npm" "install" "." "-g"
-42 error cwd /home/appuser/ovpn-log-parser
-43 error node -v v0.10.33
-44 error npm -v 1.4.28
-45 error path /usr/lib/node_modules/ovpn-log-parser
-46 error fstream_path /usr/lib/node_modules/ovpn-log-parser
-47 error fstream_type Directory
-48 error fstream_class DirWriter
-49 error code EACCES
-50 error errno 3
-51 error stack Error: EACCES, mkdir '/usr/lib/node_modules/ovpn-log-parser'
-52 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
-52 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
-52 error fstream_stack Object.oncomplete (fs.js:107:15)
-53 verbose exit [ 3, true ]
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'ovpn-log-parser',
+29 silly publish   version: '0.1.0',
+29 silly publish   description: 'Reads OpenVPN server status log and exposes it in JSON format.',
+29 silly publish   main: 'index.js',
+29 silly publish   scripts: { test: 'make test' },
+29 silly publish   repository: { type: 'git', url: 'https://github.com/pwldp/ovpn-log-parser' },
+29 silly publish   keywords: [ 'openvpn', 'server', 'log', 'parser' ],
+29 silly publish   author:
+29 silly publish    { name: 'Dariusz Pawlak',
+29 silly publish      email: 'pawlakdp@gmail.com',
+29 silly publish      url: 'http://github.com/pwldp' },
+29 silly publish   license: 'The MIT License (MIT)',
+29 silly publish   licenses:
+29 silly publish    [ { type: 'MIT',
+29 silly publish        url: 'https://raw.githubusercontent.com/pwldp/ovpn-log-parser/master/LICENSE' } ],
+29 silly publish   bugs: { url: 'https://github.com/pwldp/ovpn-log-parser/issues' },
+29 silly publish   homepage: 'https://github.com/pwldp/ovpn-log-parser',
+29 silly publish   devDependencies: { chai: '^1.10.0', mocha: '^2.1.0' },
+29 silly publish   readme: '# ovpn-log-parser\nNodeJs OpenVPN server log parser.\n\nThis module is used in [InfraTus](https://github.com/pwldp/infratus) and available via [npm](https://www.npmjs.com/package/ovpn-log-parser).\n\n\n## Installation\n    npm install ovpn-log-parser --save\n\n\n## Tests\n    npm test\n\n\n## Contributing\n\nIn lieu of a formal styleguide, take care to maintain the existing coding style.\nAdd unit tests for any new or changed functionality. Lint and test your code.\n\n\n## Release History\n\n* 0.1.0 Initial release\n\n\nModule creation based on tutorial: http://quickleft.com/blog/creating-and-publishing-a-node-js-module\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: '29623053d893af5c4f7827eaec888b34a07b3e46',
+29 silly publish   _id: 'ovpn-log-parser@0.1.0',
+29 silly publish   _shasum: '23fd9b98ddee9895e2bd1a157efa21711e5b50a5',
+29 silly publish   _from: '.' }
+30 verbose request where is /ovpn-log-parser
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 4078ea3c4d97b83d
+33 verbose url raw /ovpn-log-parser
+34 verbose url resolving [ 'https://registry.npmjs.org/', './ovpn-log-parser' ]
+35 verbose url resolved https://registry.npmjs.org/ovpn-log-parser
+36 verbose request where is https://registry.npmjs.org/ovpn-log-parser
+37 info trying registry request attempt 1 at 10:45:59
+38 http PUT https://registry.npmjs.org/ovpn-log-parser
+39 http 403 https://registry.npmjs.org/ovpn-log-parser
+40 verbose headers { date: 'Thu, 08 Jan 2015 09:45:59 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '3453',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-fra1244-FRA',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1420710359.505422,VS0,VE182',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden cannot modify pre-existing version: 0.1.0
+42 error old={"name":"ovpn-log-parser","version":"0.1.0","description":"Reads OpenVPN server status log and exposes it in JSON format.","main":"index.js","scripts":{"test":"make test"},"repository":{"type":"git","url":"https://github.com/pwldp/ovpn-log-parser"},"keywords":["openvpn","server","log","parser"],"author":{"name":"Dariusz Pawlak","email":"pawlakdp@gmail.com","url":"http://github.com/pwldp"},"license":"The MIT License (MIT)","licenses":[{"type":"MIT","url":"https://raw.githubusercontent.com/pwldp/ovpn-log-parser/master/LICENSE"}],"bugs":{"url":"https://github.com/pwldp/ovpn-log-parser/issues"},"homepage":"https://github.com/pwldp/ovpn-log-parser","devDependencies":{"chai":"^1.10.0","mocha":"^2.1.0"},"gitHead":"65e394f490b0dfa3d9883f557930efbf2c3709d0","_id":"ovpn-log-parser@0.1.0","_shasum":"abd6edcdb98312620a3f046303559ddd86ba9f32","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"pwldp","email":"pawlakdp@gmail.com"},"maintainers":[{"name":"pwldp","email":"pawlakdp@gmail.com"}],"dist":{"shasum":"abd6edcdb98312620a3f046303559ddd86ba9f32","tarball":"http://registry.npmjs.org/ovpn-log-parser/-/ovpn-log-parser-0.1.0.tgz"}}
+42 error new={"name":"ovpn-log-parser","version":"0.1.0","description":"Reads OpenVPN server status log and exposes it in JSON format.","main":"index.js","scripts":{"test":"make test"},"repository":{"type":"git","url":"https://github.com/pwldp/ovpn-log-parser"},"keywords":["openvpn","server","log","parser"],"author":{"name":"Dariusz Pawlak","email":"pawlakdp@gmail.com","url":"http://github.com/pwldp"},"license":"The MIT License (MIT)","licenses":[{"type":"MIT","url":"https://raw.githubusercontent.com/pwldp/ovpn-log-parser/master/LICENSE"}],"bugs":{"url":"https://github.com/pwldp/ovpn-log-parser/issues"},"homepage":"https://github.com/pwldp/ovpn-log-parser","devDependencies":{"chai":"^1.10.0","mocha":"^2.1.0"},"readme":"# ovpn-log-parser\u000aNodeJs OpenVPN server log parser.\u000a\u000aThis module is used in [InfraTus](https://github.com/pwldp/infratus) and available via [npm](https://www.npmjs.com/package/ovpn-log-parser).\u000a\u000a\u000a## Installation\u000a    npm install ovpn-log-parser --save\u000a\u000a\u000a## Tests\u000a    npm test\u000a\u000a\u000a## Contributing\u000a\u000aIn lieu of a formal styleguide, take care to maintain the existing coding style.\u000aAdd unit tests for any new or changed functionality. Lint and test your code.\u000a\u000a\u000a## Release History\u000a\u000a* 0.1.0 Initial release\u000a\u000a\u000aModule creation based on tutorial: http://quickleft.com/blog/creating-and-publishing-a-node-js-module\u000a","readmeFilename":"README.md","gitHead":"29623053d893af5c4f7827eaec888b34a07b3e46","_id":"ovpn-log-parser@0.1.0","_shasum":"23fd9b98ddee9895e2bd1a157efa21711e5b50a5","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"pwldp","email":"pawlakdp@gmail.com"},"maintainers":[{"name":"pwldp","email":"pawlakdp@gmail.com"}],"dist":{"shasum":"23fd9b98ddee9895e2bd1a157efa21711e5b50a5","tarball":"http://registry.npmjs.org/ovpn-log-parser/-/ovpn-log-parser-0.1.0.tgz"}}: ovpn-log-parser
+42 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+42 error     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+42 error     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:236:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Linux 2.6.32-28-pve
+45 error command "/usr/bin/node" "/usr/bin/npm" "publish"
+46 error cwd /home/appuser/ovpn-log-parser
+47 error node -v v0.10.33
+48 error npm -v 1.4.28
+49 verbose exit [ 1, true ]

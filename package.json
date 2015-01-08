@@ -1,6 +1,6 @@
 {
   "name": "ovpn-log-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reads OpenVPN server status log and exposes it in JSON format.",
   "main": "index.js",
   "scripts": {
