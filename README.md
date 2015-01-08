@@ -1,17 +1,15 @@
 # ovpn-log-parser
 NodeJs OpenVPN server log parser.
 
-This module is used in [InfraTus](https://github.com/pwldp/ifratus) and available via npm.
+This module is used in [InfraTus](https://github.com/pwldp/infratus) and available via [npm](https://www.npmjs.com/package/ovpn-log-parser).
 
 
 ## Installation
-
-  npm install ovpn-log-parser --save
+    npm install ovpn-log-parser --save
 
 
 ## Tests
-
-  npm test
+    npm test
 
 
 ## Contributing
