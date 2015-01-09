@@ -58,7 +58,6 @@ module.exports = {
 		if (section === "routing_table" && section_counter === 1){
 			idx = lines[i].toLowerCase().replace(/ /g,"_").split(",");
 		} else if (section === "routing_table" && section_counter >1 && idx.length>0){
-			console.log("client: "+lines[i] );
 			tmp = lines[i].split(",");
 			client = {};
 			for (var c=0, cl=idx.length; c<cl; c++){
